@@ -1,0 +1,33 @@
+/* App styles - most styling is handled by Tailwind CSS */
+
+/* Utility class for text truncation */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Global container to complement Tailwind's containers */
+.container-custom {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Heading styles */
+.heading-lg {
+  font-size: 1.875rem; /* 30px */
+  line-height: 1.15;
+  font-weight: 700;
+  color: #0f2540;
+}
+
+/* Small accessible focus ring for interactive elements */
+.focus-ring:focus {
+  outline: 3px solid rgba(26,111,184,0.16);
+  outline-offset: 3px;
+}
+
