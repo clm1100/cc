@@ -24,7 +24,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 text-center relative z-10">
           <div className="animate-fade-in-up opacity-0-initial" style={{ animationFillMode: 'forwards' }}>
             <span className="inline-block px-5 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm font-medium mb-8 border border-white/20 shadow-lg shadow-black/10">
-              🏆 15年专业经验 · 500+成功案例
+              🏆 16年专业经验 · 500+成功案例
             </span>
           </div>
 

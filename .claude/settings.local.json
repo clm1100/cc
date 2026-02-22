@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ossutil64 --version:*)",
+      "Bash(ossutil --version:*)"
+    ]
+  }
+}
