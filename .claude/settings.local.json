@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(ossutil64 --version:*)",
-      "Bash(ossutil --version:*)"
+      "Bash(ossutil --version:*)",
+      "mcp__xhs-mcp__search_feeds",
+      "mcp__xhs-mcp__get_feed_detail",
+      "mcp__xhs-mcp__publish_content",
+      "mcp__xhs-mcp__check_login_status"
     ]
   }
 }
